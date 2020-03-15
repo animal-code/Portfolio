@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-md-crop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-md-crop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M22,19.5625 L22,10 L12.4375,10 L12.4375,7.625 L22,7.625 C22.66667,7.625 23.2291644,7.85416437 23.6875,8.3125 C24.1458356,8.77083563 24.375,9.33333 24.375,10 L24.375,19.5625 L22,19.5625 Z M10,21.625 L29,21.625 L29,24 L24.375,24 L24.375,29 L22,29 L22,24 L10,24 C9.33333,24 8.77083563,23.7708356 8.3125,23.3125 C7.85416437,22.8541644 7.625,22.29167 7.625,21.625 L7.625,10 L3,10 L3,7.625 L7.625,7.625 L7.625,3 L10,3 L10,21.625 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

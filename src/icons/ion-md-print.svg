@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-md-print</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-md-print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M25,10 C26.0833387,10 27.0208294,10.3958294 27.8125,11.1875 C28.6041706,11.9791706 29,12.9166613 29,14 L29,22.6875 L24,22.6875 L24,28 L8,28 L8,22.6875 L3,22.6875 L3,14 C3,12.9166613 3.39582937,11.9791706 4.1875,11.1875 C4.97917063,10.3958294 5.91666125,10 7,10 L25,10 Z M22,26 L22,18 L10,18 L10,26 L22,26 Z M24,4 L24,9 L8,9 L8,4 L24,4 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

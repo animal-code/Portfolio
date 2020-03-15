@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-md-thumbs-down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-md-thumbs-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M19.625,4 C20.29167,4 20.8541644,4.22916437 21.3125,4.6875 C21.7708356,5.14583563 22,5.70833 22,6.375 L22,18.375 C22,19.04167 21.7708356,19.6041644 21.3125,20.0625 L13.4375,28 L12.1875,26.75 C11.8124981,26.3749981 11.625,25.9583356 11.625,25.5 L11.6875,25.125 L12.8125,20 L5.375,20 C4.74999687,20 4.19791906,19.6979197 3.71875,19.09375 C3.23958094,18.4895803 3,17.85417 3,17.1875 L3,14.8125 C3,14.479165 3.06249937,14.1875013 3.1875,13.9375 L6.75,5.4375 C7.16666875,4.47916187 7.874995,4 8.875,4 L19.625,4 Z M25,18 L25,4 L29,4 L29,18 L25,18 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

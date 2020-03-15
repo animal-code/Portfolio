@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-ios-journal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-ios-journal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M5.75,2 L20,2 L20,26 L7,26 C6.70833187,26 6.45833437,26.1145822 6.25,26.34375 C6.04166563,26.5729178 5.95833313,26.8333319 6,27.125 C6.08333375,27.7083362 6.41666375,28 7,28 L27,28 C27.66667,28 28,28.33333 28,29 C28,29.66667 27.66667,30 27,30 L5.75,30 C5.2499975,30 4.833335,29.833335 4.5,29.5 C4.166665,29.166665 4,28.7500025 4,28.25 L4,3.75 C4,3.2499975 4.166665,2.833335 4.5,2.5 C4.833335,2.166665 5.2499975,2 5.75,2 Z M27,26 L23,26 L23,2 L26.25,2 C26.7500025,2 27.166665,2.166665 27.5,2.5 C27.833335,2.833335 28,3.2499975 28,3.75 L28,25 C28,25.66667 27.66667,26 27,26 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

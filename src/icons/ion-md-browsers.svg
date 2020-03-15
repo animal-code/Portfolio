@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-md-browsers</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-md-browsers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M26.5,4 C27.3333375,4 28.0416638,4.29166375 28.625,4.875 C29.2083362,5.45833625 29.5,6.1666625 29.5,7 L29.5,25 C29.5,25.8333375 29.2083362,26.5416638 28.625,27.125 C28.0416638,27.7083362 27.3333375,28 26.5,28 L5.5,28 C4.6666625,28 3.95833625,27.7083362 3.375,27.125 C2.79166375,26.5416638 2.5,25.8333375 2.5,25 L2.5,7 C2.5,6.1666625 2.79166375,5.45833625 3.375,4.875 C3.95833625,4.29166375 4.6666625,4 5.5,4 L26.5,4 Z M26.5,25 L26.5,11 L5.5,11 L5.5,25 L26.5,25 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

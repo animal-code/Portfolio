@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-logo-markdown</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-logo-markdown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M28,6 C28.5833362,6 29.0624981,6.18749813 29.4375,6.5625 C29.8125019,6.93750188 30,7.41666375 30,8 L30,24 C30,24.5833363 29.8125019,25.0624981 29.4375,25.4375 C29.0624981,25.8125019 28.5833362,26 28,26 L4,26 C3.41666375,26 2.93750188,25.8125019 2.5625,25.4375 C2.18749812,25.0624981 2,24.5833363 2,24 L2,8 C2,7.41666375 2.18749812,6.93750188 2.5625,6.5625 C2.93750188,6.18749813 3.41666375,6 4,6 L28,6 Z M17.75,22 L17.75,10 L14.25,10 L11.625,14.25 L9,10 L5.5,10 L5.5,22 L9,22 L9,16 L11.625,19.375 L14.25,16 L14.25,22 L17.75,22 Z M23,22 L27.375,16 L24.75,16 L24.75,10 L21.25,10 L21.25,16 L18.625,16 L23,22 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

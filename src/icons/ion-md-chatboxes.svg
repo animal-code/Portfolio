@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-md-chatboxes</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-md-chatboxes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M24.5,4 C24.7916681,4 24.9375,4.166665 24.9375,4.5 L24.9375,17.875 C24.9375,18.2500019 24.7916681,18.4375 24.5,18.4375 L12.8125,18.4375 L7.1875,24 L7.1875,18.4375 L3.625,18.4375 C3.5,18.4375 3.36458406,18.3750006 3.21875,18.25 C3.07291594,18.1249994 3,18 3,17.875 L3,4.5 C3,4.166665 3.20833125,4 3.625,4 L24.5,4 Z M28.5,7.9375 C28.833335,7.9375 29,8.12499813 29,8.5 L29,21.875 C29,22.2500019 28.833335,22.4375 28.5,22.4375 L24.9375,22.4375 L24.9375,28 L19.3125,22.4375 L11.1875,22.4375 L13.625,20 L24.9375,20 C25.9791719,20 26.5,19.4583388 26.5,18.375 L26.5,7.9375 L28.5,7.9375 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>

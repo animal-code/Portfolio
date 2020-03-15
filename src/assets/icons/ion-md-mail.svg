@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/ion-md-mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/ion-md-mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M27.3125,5 C28.0208369,5 28.6458306,5.27083062 29.1875,5.8125 C29.7291694,6.35416938 30,6.97916312 30,7.6875 L30,24.3125 C30,25.0208369 29.7291694,25.6458306 29.1875,26.1875 C28.6458306,26.7291694 28.0208369,27 27.3125,27 L4.6875,27 C3.97916313,27 3.35416937,26.7291694 2.8125,26.1875 C2.27083063,25.6458306 2,25.0208369 2,24.3125 L2,7.6875 C2,6.97916312 2.27083063,6.35416938 2.8125,5.8125 C3.35416937,5.27083062 3.97916313,5 4.6875,5 L27.3125,5 Z M27,10.6875 L27,8 L16,15.3125 L5,8 L5,10.6875 L16,18 L27,10.6875 Z" id="↳-🎨-Fill" fill="#181C21"></path>
+    </g>
+</svg>
