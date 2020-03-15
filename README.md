@@ -2,29 +2,10 @@
 
 > 2020 Portfolio
 
-## Build Setup
+[o] 2020.03.01 ~ 2020.03.14 메인 및 서브페이지 완성 (디자인)<br>
+[ ] 2020.03.15 ~ 2020.03.21 메인 및 서브페이지 html 및 마크업 작성 (퍼블리싱)<br>
+[ ] 2020.03.22 ~ 2020.03.28 메인 및 서브페이지 css 작성 (퍼블리싱)<br>
+[ ] 2020.03.29 ~ 2020.04.04 모임 후 scss 파일로 변경 (퍼블리싱)<br>
+[ ] 2020.04.05 ~ 2020.04.11 브라우저 선정 후 통합테스트<br>
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<!-- 0 x로 실행여부를 표시해 주세요 -->
