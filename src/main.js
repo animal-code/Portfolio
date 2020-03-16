@@ -2,7 +2,6 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import { MainPage, WorksPage, AboutPage, CarrersPage, ContactPage } from './pages'
-
 Vue.config.productionTip = false
 
 Vue.use(VueRouter)

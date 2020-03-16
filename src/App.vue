@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="theme--light">
 
     <Header/>
 
@@ -22,11 +22,18 @@ export default {
 }
 </script>
 
-<style>
-  @import './assets/css/reset.css';
+<style lang="scss">
+  @import './assets/scss/app';
+
   #app {
-    padding: 0 60px;
-    font-family: 'ProximaNova', 'Avenir', Helvetica, Arial, sans-serif;
-    color: #4e5155;
+    padding: 0 60px; font-family: 'ProximaNova', 'Avenir', Helvetica, Arial, sans-serif; transition-property: background; @include ease-out(.5s); min-height: 100vh;
+    &.theme--light {
+      background: $back--light;
+      color: $color--light;
+    }
+    &.theme--dark {
+      background: $back--dark;
+      color: $color--dark;
+    }
   }
 </style>

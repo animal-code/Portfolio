@@ -1,0 +1,17 @@
+@import '../assets/scss/app';
+  #app {
+    header {padding-top: 75px; display: flex; justify-content: space-between; align-items: center; position: relative;
+      #darkBtn {width: 26px; position: absolute; top: -25px; left: 0; right: 0; margin: 0 auto; cursor: pointer; transition: .5s top ease;
+        &::before {content: ''; display: block; width: 1px; height: 100px; background-color: $color--light; margin: 0 auto;}
+        &:hover {top: 0;}
+        &:active {transition: 0s; top: -25px;}
+        img {width: 100%; margin-top: -25px;}
+      }
+      #gnb {display: flex; position: relative;
+        #gnbLine {display: block; position: absolute; bottom: 0; height: 1px; bottom: -2px; background: $color--light; text-indent: -9999px; transition-property: width, left; @include ease-out(1s);}
+        a {display: block; margin-right: 25px;
+          &:last-child {margin-right: 0;}
+        }
+      }
+    }
+  }
