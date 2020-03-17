@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --host 0.0.0.0 --disableHostCheck true --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -14,77 +15,148 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "axios": "~0.18.0",
+    "bootstrap": "~4.3.1",
+    "bootstrap-vue": "2.0.0-rc.16",
+    "c3": "^0.6.7",
+    "chart.js": "~2.8.0",
+    "echarts": "^4.2.1",
+    "idle-vue": "~2.0.5",
+    "ladda": "~2.0.1",
+    "moment": "~2.24.0",
+    "nouislider": "~13.1.4",
+    "numeral": "~2.0.6",
+    "perfect-scrollbar": "~1.4.0",
+    "plyr": "~2.0.18",
+    "simplemde": "~1.11.2",
+    "spinkit": "~1.2.5",
+    "sweet-modal-vue": "~2.0.0",
+    "text-mask-addons": "~3.8.0",
+    "v-img": "~0.2.0",
+    "vue": "~2.6.6",
+    "vue-awesome-swiper": "~3.1.3",
+    "vue-blockui": "~1.1.6",
+    "vue-c3": "~1.2.9",
+    "vue-chartjs": "~3.4.0",
+    "vue-clipboard2": "~0.3.0",
+    "vue-color": "~2.7.0",
+    "vue-context-menu": "~2.0.6",
+    "vue-cropper": "~0.4.0",
+    "vue-dragula": "~1.3.1",
+    "vue-echarts": "~4.0.1",
+    "vue-flatpickr-component": "~8.1.2",
+    "vue-form-wizard": "~0.8.4",
+    "vue-gallery": "~2.0.0",
+    "vue-input-tag": "~2.0.5",
+    "vue-jstree": "~2.1.6",
+    "vue-masonry": "~0.11.1",
+    "vue-meta": "~1.6.0",
+    "vue-multiselect": "~2.1.0",
+    "vue-notification": "~1.3.7",
+    "vue-number-input-spinner": "~2.1.0",
+    "vue-password-strength-meter": "~1.4.2",
+    "vue-quill-editor": "~3.0.5",
+    "vue-router": "~3.0.1",
+    "vue-simple-calendar": "~4.2.1",
+    "vue-simplemde": "~0.5.1",
+    "vue-slider-component": "~3.0.16",
+    "vue-tables-2": "~1.4.50",
+    "vue-text-mask": "~6.1.1",
+    "vue-toasted": "~1.1.24",
+    "vue-typeahead": "~2.3.2",
+    "vue-upload-component": "~2.8.3",
+    "vue2-dropzone": "3.5.2",
+    "vue2-google-maps": "~0.10.2",
+    "vuedraggable": "2.20.0",
+    "vuejs-datepicker": "~1.5.3",
+    "vuetrend": "~0.3.2",
+    "zxcvbn": "~4.4.2"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
-    "babel-core": "^6.22.1",
-    "babel-eslint": "^8.2.1",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "babel-jest": "^21.0.2",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-dynamic-import-node": "^1.2.0",
-    "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-plugin-transform-vue-jsx": "^3.5.0",
-    "babel-preset-env": "^1.3.2",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.22.0",
-    "chalk": "^2.0.1",
-    "chromedriver": "^2.27.2",
-    "copy-webpack-plugin": "^4.0.1",
-    "cross-spawn": "^5.0.1",
-    "css-loader": "^0.28.0",
-    "eslint": "^4.15.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.2.0",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "extract-text-webpack-plugin": "^3.0.0",
-    "file-loader": "^1.1.4",
-    "friendly-errors-webpack-plugin": "^1.6.1",
-    "html-webpack-plugin": "^2.30.1",
-    "jest": "^22.0.4",
-    "jest-serializer-vue": "^0.3.0",
-    "nightwatch": "^0.9.12",
-    "node-notifier": "^5.1.2",
-    "node-sass": "^4.13.1",
-    "optimize-css-assets-webpack-plugin": "^3.2.0",
-    "ora": "^1.2.0",
-    "portfinder": "^1.0.13",
-    "postcss-import": "^11.0.0",
-    "postcss-loader": "^2.0.8",
-    "postcss-url": "^7.2.1",
-    "rimraf": "^2.6.0",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "html-webpack-exclude-assets-plugin": "^0.0.7",
+    "node-sass": "~4.11.0",
+    "rename-webpack-plugin": "^2.0.0",
     "sass-loader": "^7.1.0",
-    "selenium-server": "^3.0.1",
-    "semver": "^5.3.0",
-    "shelljs": "^0.7.6",
-    "style-loader": "^1.1.3",
-    "uglifyjs-webpack-plugin": "^1.1.1",
-    "url-loader": "^0.5.8",
-    "vue-jest": "^1.0.2",
-    "vue-loader": "^13.3.0",
-    "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.6.0",
-    "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "suppress-chunks-webpack-plugin": "^1.0.5",
+    "vue-template-compiler": "~2.6.6",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.5.0",
+    "@vue/cli-plugin-unit-jest": "^3.5.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-jest": "^23.6.0"
   },
-  "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+  "resolutions": {
+    "sass-loader/node-sass": "~4.11.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "eslintIgnore": [
+    "/dist/",
+    "/*.js",
+    "/test/unit/coverage/",
+    "src/vendor/libs/**/*.js"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
   "browserslist": [
-    "> 1%",
+    ">= 1%",
     "last 2 versions",
-    "not ie <= 8"
-  ]
+    "not dead",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.vue$": "vue-jest",
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "snapshotSerializers": [
+      "jest-serializer-vue"
+    ],
+    "testMatch": [
+      "**/test/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
+    ],
+    "testURL": "http://localhost/"
+  }
 }
