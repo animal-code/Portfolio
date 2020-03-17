@@ -112,11 +112,7 @@
   "eslintIgnore": [
     "/dist/",
     "/*.js",
-<<<<<<< HEAD
     "/test/unit/coverage/",
-=======
-    "/tests/unit/coverage/",
->>>>>>> d70f0ba1f9f315b989daf7995981ac916b349156
     "src/vendor/libs/**/*.js"
   ],
   "postcss": {
