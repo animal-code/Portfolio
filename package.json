@@ -16,11 +16,8 @@
   },
   "dependencies": {
     "axios": "~0.18.0",
-<<<<<<< HEAD
     "bootstrap": "~4.3.1",
     "bootstrap-vue": "2.0.0-rc.16",
-=======
->>>>>>> d70f0ba1f9f315b989daf7995981ac916b349156
     "c3": "^0.6.7",
     "chart.js": "~2.8.0",
     "echarts": "^4.2.1",
