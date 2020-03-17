@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import { MainPage, WorksPage, AboutPage, CarrersPage, ContactPage } from './pages'
-Vue.config.productionTip = false
 
+import Header from './components/Header'
+import Footer from './components/Footer'
+Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const routes = [
@@ -28,6 +30,9 @@ const routes = [
     component: ContactPage
   }
 ]
+
+Vue.component('Header', Header)
+Vue.component('Footer', Footer)
 
 const router = new VueRouter({
   routes

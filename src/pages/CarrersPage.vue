@@ -1,5 +1,11 @@
 <template>
-
-    <h1>CarrersPage</h1>
-
+<section id="contents-wrap">
+    <h3 id="page-title" class="text-normal">Carrers</h3>
+    <article class="contents">
+    </article>
+</section>
 </template>
+
+<style lang="scss">
+
+</style>

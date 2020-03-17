@@ -112,7 +112,7 @@
   "eslintIgnore": [
     "/dist/",
     "/*.js",
-    "/test/unit/coverage/",
+    "/tests/unit/coverage/",
     "src/vendor/libs/**/*.js"
   ],
   "postcss": {
@@ -155,7 +155,7 @@
       "jest-serializer-vue"
     ],
     "testMatch": [
-      "**/test/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
+      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
     ],
     "testURL": "http://localhost/"
   }

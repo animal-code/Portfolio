@@ -4,9 +4,9 @@
       <router-link to='/'><img src="../assets/images/logo.svg" alt="logo"></router-link>
     </h1>
     <div id="darkBtn">
-      <img src="../assets/icons/ion-ios-moon.svg" alt="darkbtn">
+      <i class="fas fa-moon"></i>
     </div>
-    <nav id="gnb">
+    <nav id="gnb" class="text-normal font-medium">
       <router-link to='/'>HOME</router-link>
       <router-link to='/works'>WORKS</router-link>
       <router-link to='/about'>ABOUT</router-link>
@@ -33,7 +33,6 @@ window.onload = function () {
   const wrapper = document.getElementById('app')
   let darkToggle = false
   function darkFn () {
-    darkToggle = !darkToggle
     if (darkToggle) {
       wrapper.classList.add('theme--dark')
       wrapper.classList.remove('theme--light')
@@ -42,7 +41,17 @@ window.onload = function () {
     wrapper.classList.add('theme--light')
     wrapper.classList.remove('theme--dark')
   }
-  darkBtn.addEventListener('click', darkFn)
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    darkToggle = true
+    darkFn()
+  } else {
+    darkToggle = false
+    darkFn()
+  }
+  darkBtn.addEventListener('click', () => {
+    darkToggle = !darkToggle
+    darkFn()
+  })
   function resetGnbOn () {
     for (let i = 0; i < gnbChild.length; i++) {
       gnbChild[i].removeAttribute('id')
@@ -86,5 +95,31 @@ window.onload = function () {
 </script>
 
 <style scoped lang="scss">
-  @import '../assets/scss/layout/header';
+  @import '../assets/scss/app';
+  #app {
+    header {padding: 75px 60px 0; display: flex; justify-content: space-between; align-items: center; position: relative;
+      #darkBtn {width: 26px; position: absolute; top: -25px; left: 0; right: 0; margin: 0 auto; cursor: pointer; transition: .5s top ease;
+        &::before {content: ''; display: block; width: 1px; height: 85px; background-color: $color--light; margin: 0 auto;}
+        &:hover {top: 0;}
+        &:active {transition: 0s; top: -25px;}
+        i {font-size: 26px; display: block;}
+      }
+      #gnb {display: flex; position: relative;
+        #gnbLine {display: block; position: absolute; bottom: 0; height: 1px; bottom: -2px; background: $color--light; text-indent: -9999px; transition-property: width, left; @include ease-out(1s);}
+        a {display: block; margin-right: 25px;
+          &:last-child {margin-right: 0;}
+        }
+      }
+    }
+    &.theme--dark {
+      header {
+        #darkBtn {
+          &::before {background: $color--dark;}
+        }
+      }
+      #gnb {
+        #gnbLine {background: $color--dark;}
+      }
+    }
+  }
 </style>

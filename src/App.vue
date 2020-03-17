@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="theme--light">
+  <div id="app">
     <Header/>
 
     <router-view/>
@@ -9,15 +9,8 @@
 </template>
 
 <script>
-
-import Header from './components/Header'
-import Footer from './components/Footer'
 export default {
-  name: 'App',
-  components: {
-    'Header': Header,
-    'Footer': Footer
-  }
+  name: 'App'
 }
 </script>
 
@@ -25,11 +18,12 @@ export default {
   @import './assets/scss/app';
 
   #app {
-    padding: 0 60px; font-family: 'ProximaNova', 'Avenir', Helvetica, Arial, sans-serif; transition-property: background; @include ease-out(.5s); min-height: 100vh;
-    &.theme--light {
-      background: $back--light;
-      color: $color--light;
+    font-family: 'ProximaNova', 'Avenir', Helvetica, Arial, sans-serif; font-weight: 500; transition-property: background; @include ease-out(.5s); min-height: 100vh; background: $back--light; color: $color--light;
+    #contents-wrap {position: relative; margin-top: 100px;
+        #page-title {position: absolute; left: 60px; top: 0;}
+        .contents {width: 100%; margin: 0 auto; max-width: 960px;}
     }
+
     &.theme--dark {
       background: $back--dark;
       color: $color--dark;
