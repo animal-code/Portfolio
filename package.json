@@ -29,6 +29,7 @@
     "perfect-scrollbar": "~1.4.0",
     "plyr": "~2.0.18",
     "simplemde": "~1.11.2",
+    "smooth-scrollbar": "^8.5.1",
     "spinkit": "~1.2.5",
     "sweet-modal-vue": "~2.0.0",
     "text-mask-addons": "~3.8.0",

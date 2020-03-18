@@ -30,16 +30,16 @@ window.onload = function () {
   let gnbChildLeft = []
   let gnbChildOn
   const darkBtn = document.getElementById('darkBtn')
-  const wrapper = document.getElementById('app')
+  const wrapper = document.body
   let darkToggle = false
   function darkFn () {
     if (darkToggle) {
       wrapper.classList.add('theme--dark')
       wrapper.classList.remove('theme--light')
-      return false
+    } else {
+      wrapper.classList.add('theme--light')
+      wrapper.classList.remove('theme--dark')
     }
-    wrapper.classList.add('theme--light')
-    wrapper.classList.remove('theme--dark')
   }
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     darkToggle = true
@@ -96,29 +96,33 @@ window.onload = function () {
 
 <style scoped lang="scss">
   @import '../assets/scss/app';
-  #app {
-    header {padding: 75px 60px 0; display: flex; justify-content: space-between; align-items: center; position: relative;
-      #darkBtn {width: 26px; position: absolute; top: -25px; left: 0; right: 0; margin: 0 auto; cursor: pointer; transition: .5s top ease;
-        &::before {content: ''; display: block; width: 1px; height: 85px; background-color: $color--light; margin: 0 auto;}
-        &:hover {top: 0;}
-        &:active {transition: 0s; top: -25px;}
-        i {font-size: 26px; display: block;}
-      }
-      #gnb {display: flex; position: relative;
-        #gnbLine {display: block; position: absolute; bottom: 0; height: 1px; bottom: -2px; background: $color--light; text-indent: -9999px; transition-property: width, left; @include ease-out(1s);}
-        a {display: block; margin-right: 25px;
-          &:last-child {margin-right: 0;}
+  body {
+    #app {
+      header {padding: 75px 60px 0; display: flex; justify-content: space-between; align-items: center; position: relative;
+        #darkBtn {width: 26px; position: absolute; top: -25px; left: 0; right: 0; margin: 0 auto; cursor: pointer; transition: .5s top ease;
+          &::before {content: ''; display: block; width: 1px; height: 85px; background-color: $color--light; margin: 0 auto;}
+          &:hover {top: 0;}
+          &:active {transition: 0s; top: -25px;}
+          i {font-size: 26px; display: block;}
+        }
+        #gnb {display: flex; position: relative;
+          #gnbLine {display: block; position: absolute; bottom: 0; height: 1px; bottom: -2px; background: $color--light; text-indent: -9999px; transition-property: width, left; @include ease-out(1s);}
+          a {display: block; margin-right: 25px;
+            &:last-child {margin-right: 0;}
+          }
         }
       }
     }
     &.theme--dark {
-      header {
-        #darkBtn {
-          &::before {background: $color--dark;}
+      #app {
+        header {
+          #darkBtn {
+            &::before {background: $color--dark;}
+          }
         }
-      }
-      #gnb {
-        #gnbLine {background: $color--dark;}
+        #gnb {
+          #gnbLine {background: $color--dark;}
+        }
       }
     }
   }

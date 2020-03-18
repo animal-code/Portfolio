@@ -21,26 +21,31 @@ export default {
 
 <style scoped lang="scss">
   @import '../assets/scss/app';
-  #app {
-    footer {display: flex; align-items: center; flex-flow: column nowrap; justify-content: center; border-top: 1px solid #ccc; padding: 35px 0; margin-top: 150px;
-      h1 {width: 160px; margin-bottom: 15px;
-        img {width: 1005;}
-      }
-      .social {margin-bottom: 35px; display: flex; flex-flow: row nowrap;
-        a {margin-right: 30px;
-          i {font-size: 28px; color: $color--main;}
-          &:last-child {margin-right: 0;}
+  body {
+    #app {
+      footer {display: flex; align-items: center; flex-flow: column nowrap; justify-content: center; border-top: 1px solid #ccc; padding: 35px 0; margin-top: 150px;
+        h1 {width: 160px; margin-bottom: 15px;
+          img {width: 1005;}
         }
+        .social {margin-bottom: 35px; display: flex; flex-flow: row nowrap;
+          a {margin-right: 30px;
+            i {font-size: 28px; color: $color--main;}
+            &:last-child {margin-right: 0;}
+          }
+        }
+        .copy {font-size: 21px; font-weight: 300; color: $color--light;}
       }
-      .copy {font-size: 21px; font-weight: 300; color: $color--light;}
     }
-    &.theme--dark {
+  &.theme--dark {
+    #app {
       footer {
         .social {
-          a {color: $color--dark;}
+            a {color: $color--dark;}
+          }
+          .copy {color: $color--dark;}
         }
-        .copy {color: $color--dark;}
       }
     }
   }
+
 </style>

@@ -6,7 +6,7 @@
             The best ideas come as jokes. Make your thinking as funny as possible <small class="text-large font-regular">~ David Mackenzie Ogilvy</small>
         </p>
         <img src="../assets/images/picture.png" alt="picture" class="picture">
-        <h4 class="name text-center display-1 font-black">SEUNG JU</h4>
+        <h4 class="name text-center display-1 font-bold">SEUNG JU</h4>
         <ul class="naming display-1 font-bold">
             <li>Special Design</li>
             <li>Excellent Ability</li>
@@ -28,7 +28,8 @@
     </article>
 </section>
 </template>
-
+<script>
+</script>
 <style scoped lang="scss">
 @import '../assets/scss/app';
 #app {
