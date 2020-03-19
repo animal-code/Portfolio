@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import '../assets/scss/app';
   body {
     #app {
@@ -27,23 +27,23 @@ export default {
         h1 {width: 160px; margin-bottom: 15px;
           img {width: 1005;}
         }
-        .social {margin-bottom: 35px; display: flex; flex-flow: row nowrap;
-          a {margin-right: 30px;
-            i {font-size: 28px; color: $color--main;}
-            &:last-child {margin-right: 0;}
-          }
-        }
         .copy {font-size: 21px; font-weight: 300; color: $color--light;}
+      }
+    }
+    .social {margin-bottom: 35px; display: flex; flex-flow: row nowrap;
+      a {margin-right: 30px;
+        i {font-size: 28px; color: $color--main;}
+        &:last-child {margin-right: 0;}
       }
     }
   &.theme--dark {
     #app {
       footer {
-        .social {
-            a {color: $color--dark;}
-          }
-          .copy {color: $color--dark;}
+        .copy {color: $color--dark;}
         }
+      }
+      .social {
+        a {color: $color--dark;}
       }
     }
   }

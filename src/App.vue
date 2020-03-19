@@ -8,8 +8,6 @@
   </div>
 </template>
 <script>
-import Scrollbar from 'smooth-scrollbar'
-Scrollbar.init(document.body)
 export default {
   name: 'App'
 }
@@ -17,12 +15,13 @@ export default {
 
 <style lang="scss">
 @import './assets/scss/app';
-body {background: $back--light; color: $color--light; transition-property: background; @include ease-out(.5s); height: 100vh;
+body, #subMenu {background: $back--light; transition-property: background; @include ease-out(.5s);}
+body {color: $color--light;
   #app {
     font-family: 'ProximaNova', 'Avenir', Helvetica, Arial, sans-serif; font-weight: 500; min-height: 100vh;
     #contents-wrap {position: relative; margin-top: 100px;
         #page-title {position: absolute; left: 60px; top: 0;}
-        .contents {width: 100%; margin: 0 auto; max-width: 960px;}
+        .contents {width: 60%; margin: 0 auto; max-width: 960px; box-sizing: border-box;}
     }
   }
   &.theme--dark {
@@ -30,4 +29,13 @@ body {background: $back--light; color: $color--light; transition-property: backg
     color: $color--dark;
   }
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
 </style>
